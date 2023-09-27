@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="player.css">
+
+ <!-- SEO - ALL ENGINES -->
+  <meta property="og:title" content="changeme">
+  <meta property="og:description" content="changeme">
+  <meta property="og:image" content="changeme.png"> 
+  <meta property="og:url" content="url.change.me">
+  <meta property="og:site_name" content="changeme">
+  <meta property="og:type" content="music.radio_station">
+  <meta charset="utf8">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="player.css">
+</head>
+<body>
+  <div class="radio-player">
+    <audio src="RADIO_URL.aac.mp3.hls.flac.wav" class="visually-hidden" id="stream"></audio>
+    <div class="player-controls">
+      <div class="left-section">
+        <div class="album-art">
+          <img src="" alt="Album Art" id="album-art" class="rounded spinning">
+        </div>
+        <div class="now-playing">
+          <span class="song-title" id="song-title"></span>
+          <span class="artist" id="artist"></span>
+        </div>
+        <div class="dj-info">
+          <span class="dj-name" id="dj-name"></span>
+          <span class="dj-description">changeme</span>
+        </div>
+        <div class="controls">
+          <button name="play-pause" class="button play-pause-button" aria-label="Play/pause">
+            <i class="fas fa-play" aria-hidden></i>
+          </button>
+          <div class="volume-controls">
+            <button name="mute" class="button mute-button" aria-label="Mute/unmute">
+              <i class="fas fa-volume-down" aria-hidden></i>
+            </button>
+            <input type="range" name="volume" class="volume" min="0" max="1" step="0.05" value="0.2" aria-label="Volume">
+          </div>
+        </div>
+        <div class="request-song">
+          <a href="#" id="request-link" target="_blank">Request Song</a> <!-- Added target="_blank" to open in a new tab -->
+        </div>
+        <div id="message-box" class="message-box"></div>
+      </div>
+      <div class="divider">|</div>
+      <div class="next-song">
+        <p>What's Playing Next:</p>
+        <span class="song-title" id="next-song-title"></span>
+        <span class="artist" id="next-song-artist"></span>
+        <img src="" alt="Next Song Art" id="next-song-art" class="rounded">
+      </div>
+      <div class="song-history">
+        <h2>Recent Songs</h2>
+        <ul class="recent-songs" id="history-list">
+          <!-- Recent songs will be dynamically added here -->
+        </ul>
+      </div>
+      <div class="social-icons">
+        <a href="" target="_blank">
+          <img src="url" alt=""> 
+        </a>
+        <a href="" target="_blank">
+          <img src="url" alt=""> 
+        </a>
+        <p>copyright-disclaimer-goes-here</p>
+      </div>
+    </div>
+  </div>
+  <script src="player.js"></script>
+</body>
+</html>
