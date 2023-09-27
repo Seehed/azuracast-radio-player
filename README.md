@@ -3,7 +3,7 @@
 
 # azuracast-radio-player
 This is a basic Radio station player for Azuracast
-This is made for Azuracast.
+This is made by TypicalSounds, this is a basic player only.. It displays current album art, current song playing, next song playing, previous song playing, and a optional request feature. This package does not include any others like Audio ad injection, local idents, etc based on location. That is advanced and only TypicalStreamBiz plans get access to it.
 STEPS TO MAKE IT WORK: DOWNLOAD THIS TO A DIRECTORY THAT A WEB SERVER IS LINKED TO. 
 
 
