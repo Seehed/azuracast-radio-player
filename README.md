@@ -1,3 +1,6 @@
+
+![Screenshot_6](https://github.com/Seehed/azuracast-radio-player/assets/55226001/9f643cb1-c977-4f3b-96d1-34eaad2bf423)
+
 # azuracast-radio-player
 This is a basic Radio station player for Azuracast
 This is made for Azuracast.
